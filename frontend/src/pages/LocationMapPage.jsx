@@ -76,7 +76,7 @@ const LocationMapPage = () => {
                 )}
                 <div className="flex-1">
                   <h3 className="text-md font-bold text-gray-800">{loc.name}</h3>
-                  <p className="text-sm text-gray-500 truncate">
+                  <p className="text-sm text-gray-500 line-clamp-2">
                     {loc.description}
                   </p>
                   <Link
