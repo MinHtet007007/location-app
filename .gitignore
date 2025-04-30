@@ -1,0 +1,38 @@
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.DS_Store
+
+# ===== Logs =====
+logs
+*.log
+logs/*.log
+
+# ===== Build outputs =====
+dist/
+build/
+
+# ===== OS Files =====
+Thumbs.db
+.DS_Store
+
+# ===== VS Code =====
+.vscode/
+.history/
+
+# ===== Uploads (backend images) =====
+backend/uploads/
+
+# ===== Coverage reports =====
+coverage/
+
+# ===== React =====
+frontend/.next/
+frontend/.cache/
+frontend/public/static/
+frontend/public/build/
